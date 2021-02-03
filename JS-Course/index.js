@@ -1,4 +1,5 @@
 // This my first JS Code 
+// based on a tutorial from freecodecamp
 console.log('Hello World');
 let name = 'Shahriar';
 console.log(name);
@@ -49,7 +50,7 @@ let ourStr = "I come first . ";
 ourStr += "I come Second . ";
 console.log(ourStr);
 
-// define .length in JS
+// use method .length in JS
 let Myname = "James";
 let namelength = Myname.length;
 let Happyname = "My name is " + Myname + " the happiest Man in the world. ";
@@ -64,5 +65,22 @@ function wordBanks(myNoun, myAdjective, myVerb, myAdverb) {
 }
 console.log(wordBanks("dog", "funny", "play", "fastly"));
 console.log(wordBanks("gandalf", "crazy", "dance", "quickly"));
+
+// nested array
+let ourArray = [["the universe", 32, 45], ["Hello Donyaie ugly", 87, "happy new year"]];
+console.log(ourArray);
+
+// USe Push() and  pop() method to add data to our array pop() to 
+// delet the last data shift() first data element remove
+let myArray = [[32, 445, 87], [33, 765, 267], [34, 123, 231]];
+myArray.push([35, 546, 24]);
+console.log(myArray);
+let removelast = myArray.pop();
+console.log(removelast);
+let removefirst = myArray.shift();
+console.log(removefirst);
+
+
+
 
 
